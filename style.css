@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Lato Font Styles */
+
 .lato-thin {
   font-family: "Lato", sans-serif;
   font-weight: 100;
@@ -38,4 +40,49 @@
 
 .header-container{
     display: flex;
+    background-color: #FCEEF1;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    max-width: 1920px;
+    height: 100%;
+}
+/* .text-container{
+  width: 700px;
+  margin-left: 147px;
+} */
+
+.text-container h1 {
+    font-size: 80px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 32px;
+    
+
+}
+
+.text-container p{
+  font-size: 18px;
+  color: rgba(25, 25, 25, 0.6);
+  line-height: 30px;
+}
+
+.image-container img{
+  margin-left: 97px;
+  max-width: 620px;
+  height: 800px;
+}
+
+.shop-now-button{
+  background-color: rgb(229, 84, 115);
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.shop-now-button:hover{
+  background-color: rgb(255, 105, 135);
 }
